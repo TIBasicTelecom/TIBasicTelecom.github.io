@@ -26,7 +26,12 @@ document.addEventListener('click', event => {
     scrollTo(0, start + (end - start) * easing)
 
     if (progress < 1) animation = requestAnimationFrame(scroll)
-    else history.pushState(null, '', link.hash)
+    else {
+      history.pushState(null, '', link.hash)
+      const focusTarget = target.querySelector('h1, h2') || target
+      focusTarget.tabIndex = -1
+      focusTarget.focus({ preventScroll: true })
+    }
   }
 
   animation = requestAnimationFrame(scroll)
