@@ -35,7 +35,7 @@ a:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; box-shad
 .nav a { padding-block: 24px; text-decoration: none; }
 .nav a:hover { color: #c9e2ff; }
 
-.hero { overflow: hidden; color: var(--white); background: linear-gradient(90deg, var(--blue) 50%, var(--pale) 50%); }
+.hero { overflow: hidden; color: var(--white); background: var(--blue); }
 .hero-grid { min-height: 510px; display: grid; grid-template-columns: 56% 44%; }
 .hero-copy { position: relative; padding: 78px 80px 88px 0; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; }
 .hero-copy::before { content: ""; position: absolute; inset: 0 100% 0 -50vw; background: repeating-linear-gradient(135deg, rgba(255,255,255,.04) 0 12px, transparent 12px 26px); }
@@ -43,11 +43,12 @@ a:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; box-shad
 .hero .eyebrow { color: #d5e7fb; }
 h1 { max-width: 700px; margin: 0; font-size: clamp(40px, 4.3vw, 62px); line-height: 1.05; letter-spacing: -.045em; text-transform: uppercase; }
 .hero-copy p { max-width: 620px; margin: 26px 0 30px; color: #deebf8; font-size: 18px; line-height: 1.65; }
-.hero-visual { position: relative; display: grid; place-items: center; background: radial-gradient(circle at 75% 20%, #fff 0 6%, transparent 6.2%), linear-gradient(145deg, #dceafa, #f7faff); }
+.hero-visual { position: relative; display: grid; place-items: center; background: radial-gradient(circle at 75% 20%, #fff 0 6%, transparent 6.2%), repeating-linear-gradient(135deg, rgba(54,85,126,.035) 0 2px, transparent 2px 24px), #edf4fb; box-shadow: 50vw 0 0 50vw #edf4fb; }
 .hero-visual::before, .hero-visual::after { content: ""; position: absolute; border: 2px solid rgba(46,95,151,.12); border-radius: 50%; }
 .hero-visual::before { width: 430px; height: 430px; }
 .hero-visual::after { width: 580px; height: 580px; }
 .hero-brand { position: relative; z-index: 1; width: min(360px, 80%); aspect-ratio: 1; padding: 44px; border-radius: 28px; display: grid; place-items: center; background: radial-gradient(circle at 12% 14%, rgba(255,16,24,.08) 0 15%, transparent 15.5%), radial-gradient(circle at 88% 86%, rgba(8,112,189,.09) 0 18%, transparent 18.5%), var(--white); box-shadow: 0 28px 65px rgba(20,33,61,.18); transform: rotate(-2deg); }
+.hero-brand::after { content: ""; position: absolute; right: -72px; bottom: 34px; width: 82px; height: 100px; background: radial-gradient(circle at 20px 20px, rgba(255,16,24,.72) 0 14px, transparent 15px), radial-gradient(circle at 20px 70px, rgba(8,112,189,.72) 0 14px, transparent 15px), radial-gradient(circle at 58px 45px, rgba(151,151,151,.68) 0 14px, transparent 15px); transform: rotate(2deg); }
 .hero-brand img { display: block; width: 100%; height: auto; }
 
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 34px; padding: 19px 26px; color: var(--white); background: var(--accent); font-size: 13px; font-weight: 800; text-decoration: none; text-transform: uppercase; transition: transform .2s, background .2s; }
