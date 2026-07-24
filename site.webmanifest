@@ -1,0 +1,12 @@
+{
+  "name": "Basic Telecom",
+  "short_name": "Basic Telecom",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#14213d",
+  "icons": [
+    { "src": "assets/favicon.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
