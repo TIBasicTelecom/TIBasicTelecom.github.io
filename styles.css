@@ -43,11 +43,11 @@ a:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; box-shad
 .hero .eyebrow { color: #d5e7fb; }
 h1 { max-width: 700px; margin: 0; font-size: clamp(40px, 4.3vw, 62px); line-height: 1.05; letter-spacing: -.045em; text-transform: uppercase; }
 .hero-copy p { max-width: 620px; margin: 26px 0 30px; color: #deebf8; font-size: 18px; line-height: 1.65; }
-.hero-visual { position: relative; display: grid; place-items: center; background: radial-gradient(circle at 75% 20%, #fff 0 6%, transparent 6.2%), repeating-linear-gradient(135deg, rgba(54,85,126,.035) 0 2px, transparent 2px 24px), #edf4fb; box-shadow: 50vw 0 0 50vw #edf4fb; }
-.hero-visual::before, .hero-visual::after { content: ""; position: absolute; border: 2px solid rgba(46,95,151,.12); border-radius: 50%; }
+.hero-visual { position: relative; display: grid; place-items: center; border-left: 1px solid rgba(255,255,255,.1); background: radial-gradient(circle at 50% 50%, rgba(72,116,166,.45), transparent 58%), linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(110deg, #182b49, #223f67); background-size: auto, 32px 32px, 32px 32px, auto; box-shadow: 50vw 0 0 50vw #223f67; }
+.hero-visual::before, .hero-visual::after { content: ""; position: absolute; border: 1px solid rgba(213,231,251,.18); border-radius: 50%; }
 .hero-visual::before { width: 430px; height: 430px; }
 .hero-visual::after { width: 580px; height: 580px; }
-.hero-brand { position: relative; z-index: 1; width: min(360px, 80%); aspect-ratio: 1; padding: 44px; border-radius: 28px; display: grid; place-items: center; background: radial-gradient(circle at 12% 14%, rgba(255,16,24,.08) 0 15%, transparent 15.5%), radial-gradient(circle at 88% 86%, rgba(8,112,189,.09) 0 18%, transparent 18.5%), var(--white); box-shadow: 0 28px 65px rgba(20,33,61,.18); transform: rotate(-2deg); }
+.hero-brand { position: relative; z-index: 1; width: min(360px, 80%); aspect-ratio: 1; padding: 44px; border: 1px solid rgba(255,255,255,.7); border-radius: 28px; display: grid; place-items: center; background: radial-gradient(circle at 12% 14%, rgba(255,16,24,.08) 0 15%, transparent 15.5%), radial-gradient(circle at 88% 86%, rgba(8,112,189,.09) 0 18%, transparent 18.5%), var(--white); box-shadow: 0 32px 80px rgba(5,15,31,.42); transform: rotate(-2deg); }
 .hero-brand::after { content: ""; position: absolute; right: -72px; bottom: 34px; width: 82px; height: 100px; background: radial-gradient(circle at 20px 20px, rgba(255,16,24,.72) 0 14px, transparent 15px), radial-gradient(circle at 20px 70px, rgba(8,112,189,.72) 0 14px, transparent 15px), radial-gradient(circle at 58px 45px, rgba(151,151,151,.68) 0 14px, transparent 15px); transform: rotate(2deg); }
 .hero-brand img { display: block; width: 100%; height: auto; }
 
