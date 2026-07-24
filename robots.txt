@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://basictelecom.com.br/sitemap.xml
+Sitemap: https://tibasictelecom.github.io/sitemap.xml
