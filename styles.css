@@ -43,7 +43,7 @@ a:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; box-shad
 .hero .eyebrow { color: #d5e7fb; }
 h1 { max-width: 700px; margin: 0; font-size: clamp(40px, 4.3vw, 62px); line-height: 1.05; letter-spacing: -.045em; text-transform: uppercase; }
 .hero-copy p { max-width: 620px; margin: 26px 0 30px; color: #deebf8; font-size: 18px; line-height: 1.65; }
-.hero-visual { position: relative; display: grid; place-items: center; border-left: 1px solid rgba(255,255,255,.1); background: radial-gradient(circle at 50% 50%, rgba(72,116,166,.42), transparent 58%); }
+.hero-visual { position: relative; display: grid; place-items: center; background: radial-gradient(circle at 50% 50%, rgba(72,116,166,.42), transparent 58%); }
 .hero-visual::before, .hero-visual::after { content: ""; position: absolute; border: 1px solid rgba(213,231,251,.18); border-radius: 50%; }
 .hero-visual::before { width: 430px; height: 430px; }
 .hero-visual::after { width: 580px; height: 580px; }
