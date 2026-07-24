@@ -84,8 +84,6 @@ h1 { max-width: 700px; margin: 0; font-size: clamp(40px, 4.3vw, 62px); line-heig
 .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 100px; }
 .about-copy { max-width: 720px; color: var(--muted); font-size: 18px; line-height: 1.8; }
 .about-copy p:first-child { margin-top: 0; color: var(--ink); font-size: 22px; font-weight: 700; line-height: 1.55; }
-.text-link { display: inline-flex; gap: 18px; margin-top: 18px; color: var(--blue); font-size: 13px; font-weight: 800; text-transform: uppercase; }
-
 .contact { padding: 95px 0; background: #f7f9fc; }
 .contact-card { min-height: 315px; padding: 65px; color: var(--white); background: var(--blue); display: flex; align-items: center; justify-content: space-between; gap: 50px; }
 .contact-card h2 { margin-bottom: 14px; }
