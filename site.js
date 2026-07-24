@@ -1,3 +1,8 @@
+if (location.protocol !== 'file:' && location.pathname.endsWith('/index.html')) {
+  const hash = location.hash === '#inicio' ? '' : location.hash
+  history.replaceState(null, '', location.pathname.slice(0, -10) + location.search + hash)
+}
+
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)')
 let animation
 
